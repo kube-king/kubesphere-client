@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	v1 "k8s.io/api/apps/v1"
 	v12 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"kubesphere-client/pkg/client/global"
-	"kubesphere-client/pkg/client/types"
-	"kubesphere-client/pkg/client/utils"
+	"kubeking.io/kubesphere/pkg/client/global"
+	"kubeking.io/kubesphere/pkg/client/types"
+	"kubeking.io/kubesphere/pkg/client/utils"
 )
 
 type Deployment struct {

@@ -1,5 +1,5 @@
 package global
 
-import "kubesphere-client/pkg/client/types"
+import "kubeking.io/kubesphere/pkg/client/types"
 
 var AuthToken *types.OAuthToken
