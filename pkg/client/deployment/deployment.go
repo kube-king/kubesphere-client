@@ -2,6 +2,7 @@ package deployment
 
 import (
 	"encoding/json"
+	"fmt"
 	v1 "k8s.io/api/apps/v1"
 	v12 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"kubeking.io/kubesphere/pkg/client/global"
@@ -36,6 +37,7 @@ func (c *Deployment) Update(cluster, namespace, deployment string, deploy v1.Dep
 		return err
 	}
 
+	fmt.Println(1)
 	return nil
 }
 
