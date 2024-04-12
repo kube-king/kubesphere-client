@@ -1,4 +1,4 @@
-module kubesphere-client
+module kubesphere_client
 
 go 1.22.1
 
