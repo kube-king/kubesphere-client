@@ -1,4 +1,4 @@
-module kubesphere_client
+module github.com/kube-king/kubesphere-client
 
 go 1.22.1
 
